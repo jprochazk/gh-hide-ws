@@ -2,7 +2,7 @@ Chrome extension which selects the `Hide whitespace` option in GitHub PRs automa
 
 ### Installation
 
-1. Download the [source code](https://github.com/jprochazk/gh-hide-ws/releases/latest)
+1. Download the [source code](https://github.com/jprochazk/gh-hide-ws/releases/latest) (or `git clone` this repository)
 2. Extract it somewhere
 3. Go to [chrome://extensions/](chrome://extensions/)
 4. Click "Load Unpacked"
