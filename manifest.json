@@ -1,0 +1,15 @@
+{
+  "name": "Hide whitespace in GH PRs",
+  "description": "Enables the hide whitespace option by default in GitHub pull requests",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": [
+    "https://github.com/*/*/pull/*",
+    "http://github.com/*/*/pull/*/files",
+    "http://github.com/*/*/pull/*/files/*"
+  ]
+}
